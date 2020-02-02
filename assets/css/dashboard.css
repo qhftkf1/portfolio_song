@@ -1,0 +1,56 @@
+#main #header{
+  padding: 0px;
+}
+.overflow_unset{
+  overflow: hidden!important;
+}
+.dashboard{
+  height: 100%;
+}
+.first_row{
+  height: 33%;
+}
+.second_row{
+  height: 33%;
+}
+.dashboard_frame{
+  height: 100%;
+  padding: 15px;
+}
+.dashboard_container{
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.dashboard_container_title{
+  height: auto;
+  /* border-bottom: 2px solid grey; */
+}
+.title_font{
+  padding: .5rem;
+  border-bottom: 2px solid grey;
+}
+.dashboard_container_content{
+  height: calc(100% - 32px);
+  overflow: auto;
+}
+.dashboard_container_content_GPA{
+  padding: 1.5rem;
+  font-family: cursive;
+  font-size: -webkit-xxx-large;
+  text-align: center;
+}
+.dashboard_container_content_language{
+  padding: 1.5rem;
+  font-family: cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#myChart{
+  /* width: 50%!important; */
+  /* height: 100%!important; */
+}

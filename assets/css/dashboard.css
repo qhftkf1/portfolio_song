@@ -32,25 +32,56 @@
 .title_font{
   padding: .5rem;
   border-bottom: 2px solid grey;
+  font-family:monospace;
+  font-weight: bold;
 }
 .dashboard_container_content{
   height: calc(100% - 32px);
   overflow: auto;
 }
 .dashboard_container_content_GPA{
-  padding: 1.5rem;
-  font-family: cursive;
+  margin: 5vh;
+  /* padding: 1.8rem; */
+  font-family:monospace;
   font-size: -webkit-xxx-large;
   text-align: center;
 }
 .dashboard_container_content_language{
-  padding: 1.5rem;
-  font-family: cursive;
-  font-size: 3rem;
-  text-align: center;
+  margin: 5vh;
+  /* padding: 1.8rem; */
+  font-family:monospace;
+  font-size: 2rem;
+  /* text-align: center; */
 }
-
+.dashboard_container_content_award{
+  margin: 3vh;
+  /* padding: 1.8rem; */
+  font-family:monospace;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.dashboard_container_content_intern{
+  margin: 5vh;
+  /* padding: 1.8rem; */
+  font-family:monospace;
+  font-size: 1.6rem;
+  /* font-weight: bold; */
+}
+.dashboard_container_content_computer{
+  margin: 2vh 5px;
+  /* padding: 1.8rem; */
+  font-family:monospace;
+  font-size: 1.6rem;
+  /* font-weight: bold; */
+}
 #myChart{
   /* width: 50%!important; */
   /* height: 100%!important; */
+}
+
+.text_align{
+  text-align: center;
+}
+.img_rotate{
+  	transform: rotate( 90deg );
 }

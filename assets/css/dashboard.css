@@ -50,6 +50,8 @@ display:none;
 }
 .dashboard_gpa{
   height: 50%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .dashboard_container_content_GPA{
   margin: 5vh;
@@ -57,6 +59,7 @@ display:none;
   font-family:monospace;
   font-size: -webkit-xxx-large;
   text-align: center;
+
 }
 .dashboard_container_content_language{
   margin: 5vh;
@@ -108,4 +111,14 @@ display:none;
 }
 .img_rotate{
   	transform: rotate( 90deg );
+}
+
+@media screen and (max-width: 780px) {
+.first_row{
+  height: auto;
+}
+.col-sm-4, .col-sm-6, .col-sm-8{
+  width: 100%;
+}
+
 }

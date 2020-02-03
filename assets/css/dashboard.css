@@ -114,11 +114,17 @@ display:none;
 }
 
 @media screen and (max-width: 780px) {
-.first_row{
-  height: auto;
-}
-.col-sm-4, .col-sm-6, .col-sm-8{
-  width: 100%;
-}
-
+  .first_row{
+    height: auto;
+  }
+  .col-sm-4, .col-sm-6, .col-sm-8{
+    width: 100%;
+  }
+  .dashboard_container_content_award{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .dashboard_container_content_award_count{
+      border-left: 0px;
+  }
 }

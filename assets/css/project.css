@@ -30,3 +30,12 @@ iframe{
 .img_background{
   background: url('images/thumbs/22.img')
 }
+@media (max-width: 768px){
+  .modal-dialog {
+      width: 80%!important;
+      margin: 20px auto!important;
+  }
+  .jumbotron p {
+    font-size:16px;
+  }
+}

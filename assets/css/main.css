@@ -10,13 +10,16 @@
 /* All css */
 
 /* Reset */
-.media:first-child{
-	margin-top: 15px!important;
+.media{
+	margin-top:0px!important;
 }
-.img_size{
+.media:first-child{
+	/* margin-top: 15px!important; */
+}
+/* .img_size{
 	width: 300px;
 	height: 200px;
-}
+} */
 html, body{
 	height: 100%;
 	/* overflow: auto; */
@@ -779,10 +782,10 @@ html, body{
 	}
 
 	.gallery {
-		padding: 3.5em;
+		/* padding: 3.5em; */
 		position: relative;
 		overflow: hidden;
-		min-height: 37em;
+		/* min-height: 37em; */
 	}
 
 		@media screen and (max-width: 980px) {
@@ -1484,7 +1487,7 @@ html, body{
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
-		padding: 8em 0 6em 0;
+		padding: 3em 0 1em 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1497,11 +1500,11 @@ html, body{
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		min-height: 75vh;
-		height: 75vh;
+		min-height: 40vh;
+		height: 60vh;
 		position: relative;
 		background: #000;
-		background-image: url(../../images/banner.jpg);
+		background-image: url(../../images/banner2.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;

@@ -6,13 +6,16 @@
 -->
 <html>
 	<head>
-		<title>Generic - Snapshot by TEMPLATED</title>
+		<title>글쓰는 개발자 송승기 포트폴리오</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/project.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	</head>
+		<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href="css/stylish-portfolio.min.css" rel="stylesheet">
+		<link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="page-wrap">
@@ -34,10 +37,129 @@
 						<div></div>
 					</header>
 					<div class="content">
+						<section class="" id="portfolio">
+							<div class="container">
+								<div class="content-section-heading text-center">
+									<h3 class="text-secondary mb-0">Portfolio</h3>
+									<!-- <h2 class="mb-5">Recent Projects</h2> -->
+								</div>
+								<div class="row no-gutters">
+									<div class="col-lg-4 no_padding">
+										<a class="portfolio-item" href="#">
+											<span class="caption">
+												<span class="caption-content">
+													<h2>Uni-DamoAh</h2>
 
+													<p class="mb-0"> 대학교의 모든 정보를 모아 담다.</p>
+													<!-- Button trigger modal -->
+													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+													  자세히
+													</button>
+
+
+												</span>
+											</span>
+											<img class="img-fluid" src="img/uni_01.jpg" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 no_padding">
+										<a class="portfolio-item" href="#">
+											<span class="caption">
+												<span class="caption-content">
+													<h2>Uni-Share</h2>
+													<p class="mb-0">당신이 다니는 학교를 공유하다.</p>
+													<!-- Button trigger modal -->
+													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#uni-share">
+														자세히
+													</button>
+												</span>
+											</span>
+											<img class="img-fluid" src="img/uni_room.jpg" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 no_padding">
+										<a class="portfolio-item" href="#">
+											<span class="caption">
+												<span class="caption-content">
+													<h2>Smart Light</h2>
+													<p class="mb-0">엣지 컴퓨팅으로 불을 조절하다.</p>
+													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#light">
+														자세히
+													</button>
+												</span>
+											</span>
+											<img class="img-fluid" src="img/light.jpg" alt="">
+										</a>
+									</div>
+									<!-- <div class="col-lg-4 no_padding">
+										<a class="portfolio-item" href="#">
+											<span class="caption">
+												<span class="caption-content">
+													<h2>Smart Factory</h2>
+													<p class="mb-0">LoRa와 vue.js를 활용한 대시보드</p>
+											</span>
+											<img class="img-fluid" src="img/light.jpg" alt="">
+										</a>
+									</div> -->
+								</div>
+							</div>
+						</section>
 					</div>
 			</section>
 		</div>
+		<!-- Modal -->
+
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Uni-DamoAh</h4>
+						</div>
+						<div class="modal-body">
+								<iframe src="https://www.youtube.com/embed/KdffEV-XUH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal_Uni_Share -->
+		<div class="modal fade" id="uni-share" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Uni-DamoAh</h4>
+						</div>
+						<div class="modal-body">
+							<iframe src="https://www.youtube.com/embed/iCeAuVt1uIQ?list=UUay5rdWvmYu_B7aJ3Wo-Ugg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal_light -->
+		<div class="modal fade" id="light" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Uni-DamoAh</h4>
+						</div>
+						<div class="modal-body">
+							<iframe src="https://www.youtube.com/embed/CxdFvQ7IJSY?list=UUay5rdWvmYu_B7aJ3Wo-Ugg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -46,6 +168,22 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+			<script type="text/javascript">
 
+				 $('#myModal button').click(function () {
+						 $('#myModal iframe').removeAttr('src');
+				 });
+				 $('#uni-share button').click(function () {
+						 $('#uni-share iframe').removeAttr('src');
+				 });
+				 $('#light button').click(function () {
+						$('#light iframe').removeAttr('src');
+				});
+			</script>
 	</body>
 </html>
